@@ -55,7 +55,6 @@ This example would generate a `user_get` folder, with a `function.json` file, wi
       "name": "$return"
     }
   ],
-  // added scriptFile
   "scriptFile": "../src/users/get.az.js
 }
 
@@ -87,7 +86,7 @@ In this file, the glob pattern to azure function js files can be specified.
 
 ```json
 {
-  "path": "src/**/*.az.js", // glob pattern for azure function files
+  "path": "src/**/*.az.js",
   "settings": "settings",
   "name": "name"
 }
