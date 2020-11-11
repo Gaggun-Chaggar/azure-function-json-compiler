@@ -1,0 +1,33 @@
+{
+  "name": "azure-function-json-compiler",
+  "version": "0.1.0",
+  "description": "Add flexibility to Node Azure Function projects by automating the creation of function.json files!",
+  "main": "src/index.js",
+  "bin": {
+    "az-fn": "bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaggun-Chaggar/azure-function-json-compiler.git"
+  },
+  "keywords": [],
+  "author": "Gaggun Chaggar (gaggunchaggar@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gaggun-Chaggar/azure-function-json-compiler/issues"
+  },
+  "homepage": "https://github.com/Gaggun-Chaggar/azure-function-json-compiler#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "glob": "^7.1.6",
+    "yargs": "^16.1.0"
+  }
+}
